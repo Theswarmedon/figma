@@ -61,13 +61,13 @@ body {
   box-shadow: 0 12px 30px rgba(0,0,0,0.15);
 }
 
-.hero-image {
-  width: 100%;
-  height: 260px;
-  background: #dcdcdc;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #dcdcdc;
-  font-size: 0.9rem;
+.image-below {
+  margin-top: 3rem;
+  transform: translateX(40px);
+}
+
+.image-below img {
+  width: 420px;
+  height: auto;
+  display: block;
 }
