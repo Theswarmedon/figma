@@ -59,17 +59,3 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
-
-.image {
-  width: 100%;
-  height: 560px;
-  background: #eaeaea;
-  border-radius: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  font-weight: 600;
-  color: #888888;
-  box-shadow: 0 14px 32px rgba(0,0,0,0.08);
-}

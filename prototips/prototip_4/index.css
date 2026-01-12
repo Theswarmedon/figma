@@ -20,38 +20,6 @@ body {
   display: flex;
 }
 
-.left {
-  width: 55%;
-  background: #e8dcd3;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.arch {
-  width: 420px;
-  height: 700px;
-  background: #f3eee9;
-  border-radius: 220px 220px 40px 40px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  padding-bottom: 0;
-  overflow: hidden;
-}
-
-.sofa {
-  width: 100%;
-  height: 95%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-
-
-
 .sofa img {
   width: 100%;
   height: 100%;

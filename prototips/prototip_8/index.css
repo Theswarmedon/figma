@@ -35,24 +35,27 @@ body {
   align-items: center;
 }
 
-.circle {
-  position: absolute;
+.image-wrapper {
+  position: relative;
   width: 520px;
   height: 520px;
-  background: #f0c45c;
-  border-radius: 50%;
-  left: 40px;
 }
 
-.image-placeholder {
-  position: relative;
-  width: 360px;
+.image-wrapper .ellipse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 520px;
   height: 520px;
-  background: rgba(0, 0, 0, 0.85);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
+  z-index: 1;
+}
+
+.image-wrapper .main-image {
+  position: absolute;
+  top: 0;
+  left: 80px;
+  width: 360px;
+  height: auto;
   z-index: 2;
 }
 
