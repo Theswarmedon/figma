@@ -66,17 +66,6 @@ body {
   gap: 32px;
 }
 
-.image {
-  background: #eaeaea;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #888888;
-  font-weight: 600;
-  box-shadow: 0 12px 28px rgba(0,0,0,0.08);
-}
-
 .large {
   width: 360px;
   height: 480px;
